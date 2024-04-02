@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Projects</title>
+
+  <link rel="icon" type="images/xicon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <h1>Ian Sabourin</h1>
+    <input type="image" src="images/bars-solid.svg" alt="Menu Icon" width="40" height="40" onclick="dropdownFunction()" id="dropdown-button">
+    <div class="dropdown">
+      <div id="dropdown-content">
+        <h1>Ian Sabourin</h1>
+        <h2><a href="index.html">Home</a></h2>
+        <h2 class="active"><a href="#">Projects</a></h2>
+        <h2><a href="aboutme.html">About Me</a></h2>
+  
+        <!-- Color Switcher -->
+        <label for="switch" class="toggle">
+          <input type="checkbox" id="switch" onclick="colorChanger()" />
+          <span class="slider">.</span>
+        </label>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <h2>Projects</h2>
+    <ol id="projects">
+      <li>
+        <img src="images/project1.png" width="300" height="200" alt="placeholder image">
+        <ul>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+          <li>Lorem ipsum</li>
+        </ul>
+      </li>
+
+      <li>
+        <img src="images/project2.png" width="300" height="200" alt="placeholder image">
+        <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+      </li>
+
+      <li>
+        <img src="images/project3.png" width="300" height="200" alt="placeholder image">
+        <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+      </li>
+
+    </ol>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
